@@ -1,2 +1,14 @@
 .env
-.venv
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+*.log
+assistant.json
+*.sqlite
+*.db
+credentials.json
+token.json
+*secret*.json
+*credentials*.json
